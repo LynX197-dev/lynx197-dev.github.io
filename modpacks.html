@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modpacks | LynX Development</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        /* Simple responsive navbar */
+        nav {
+            width: 100%;
+            background: #111;
+            padding: 15px 0;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.25s;
+        }
+
+        nav a:hover {
+            color: #0ff;
+        }
+
+        /* Mobile fix */
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+                gap: 10px;
+                padding: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NEW NAVBAR -->
+   <nav>
+    <a href="https://lynx197-dev.github.io/lynx-development.github.io/">Home</a>
+    <a href="https://lynx197-dev.github.io/lynx-development.github.io/plugins">Plugins</a>
+    <a href="https://lynx197-dev.github.io/lynx-development.github.io/modpacks">Modpacks</a>
+    <a href="https://lynx197-dev.github.io/lynx-development.github.io/support">Support</a>
+    <a href="https://modrinth.com/user/LynX_Development" target="_blank">Modrinth</a>
+   </nav>
+
+</head>
+<body>
+    <header class="small">
+        <a href="https://modrinth.com/user/LynX_Development" target="_blank">
+        <img src="assets/logo.png" alt="LynX Development Logo" class="logo-small">
+        </a>
+        <h1>Our Modpacks</h1>
+    </header>
+
+    <section class="plugins">
+        <div class="grid">
+<div class="card">
+        <h3>Dynamic Tech</h3>
+        <p>Dynamic Tech is a high-demand tech and automation modpack for Minecraft Fabric.</p>
+        <a href="https://modrinth.com/plugin/dynamic-tech" target="_blank" class="btn small">View on Modrinth</a>
+    </div> 
+<div class="card">
+        <h3>Dynamic Qol</h3>
+        <p>Dynamic QoL is a lightweight Minecraft Fabric modpack designed to enhance performance, controls, and visuals.</p>
+        <a href="https://modrinth.com/plugin/dynamic-qol" target="_blank" class="btn small">View on Modrinth</a>
+    </div> 
+<div class="card">
+        <h3>Dynamic FEATHER+</h3>
+        <p>The Dynamic FEATHER+ is a lightweight, optimized Feather Standalone–enhancing modpack designed for maximum performance, visuals, and stability.</p>
+        <a href="https://modrinth.com/plugin/dynamic-feather+" target="_blank" class="btn small">View on Modrinth</a>
+    </div>
+<div class="card">
+        <h3>Dynamic Visuals</h3>
+        <p>Dynamic Visuals is a lightweight, performance-friendly modpack that upgrades Minecraft’s graphics with better lighting, shaders, animations, and UI enhancements. It keeps full vanilla compatibility while delivering a stunning visual experience on any PC.</p>
+        <a href="https://modrinth.com/plugin/dynamic-visuals" target="_blank" class="btn small">View on Modrinth</a>
+    </div> 
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 LynX Development. All rights reserved.</p>
+    </footer>
+</body>
+</html>
