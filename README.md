@@ -63,7 +63,8 @@ Each plugin comes with its own configuration files and documentation.
 ## 📜 License & Credits
 © 2025 LynX Development. All rights reserved.  
 Each plugin may have its own license—check individual plugin documentation for details.  
-We mostly prefer the MIT License because it gives flexibilty to the users
+We mostly prefer the MIT License because it gives flexibilty to the users.
+
 Thanks to everyone in the Minecraft plugin development community for inspiration, feedback, and collaboration.
 
 ---
