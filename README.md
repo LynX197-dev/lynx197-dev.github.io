@@ -3,6 +3,8 @@
 
 Lightweight · Optimized · Feature‑Rich Minecraft Plugins
 
+For any support related related to our any project, join our [Discord Server](https://discord.gg/KNYcXFKbeS)
+
 Welcome to the home of **LynX Development**, where we build modern, efficient, and versatile Minecraft server plugins designed with performance and simplicity in mind.
 
 ---
